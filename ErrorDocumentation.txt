@@ -1,0 +1,11 @@
+Errors Found in Circle.java
+-In function Scale(double factor), the function was adding the scalar instead of multiplying it which returned the wrong values. Found by Test1, 2, and 3.
+
+
+Erros Found in Circle1.java
+-In the function intersects the function was only checking if the two circles interwoved and had more than one intersection.  (Found by Test9). The formula was then changed to  compare the distance with the absolute value of the different of the radii and the sum of both radii. This will return true if: Math.abs(rMin) <= distance && distance <= rSum. This worked with all further tests.
+
+
+Erros Found in Circle2.java
+-When calling the super constructor the x and y values were switched. In order to fix the errors the values were switched. Found by test CircleOnePointIntersect/Test 9.
+-Same as with Circle1 the intersects did not calculate correctly whether two circles intersect or not. The formula was changed to the same one as above. Error found by Test CircleInsdeButNotIntersecting/Test10 and CirclesOnePointIntersect/Test9.
